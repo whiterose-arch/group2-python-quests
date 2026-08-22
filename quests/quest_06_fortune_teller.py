@@ -30,4 +30,7 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+user_name = input("What is your name, adventurer? ")  # Ask the user for their name and store it in a variable
+user_quest = input("What is your quest? ")  # Ask the user for their quest and store it in a variable
+
+print(f"Greetings, {user_name}! Your quest to '{user_quest}' has been noted.")  # Print a confirmation message using the user's input
