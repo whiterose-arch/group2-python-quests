@@ -8,7 +8,7 @@ Team learning-Python-by-coding project. This repo is the shared workspace for ou
 |---|---|
 | _Member 1_ | @whiterose-arch |
 | _Member 2_ | @mugisha-eric |
-| _Member 3_ | @ |
+| _Member 3_ | @binelintsa-sketch |
 
 ## 📁 Structure
 
