@@ -7,7 +7,7 @@ Team learning-Python-by-coding project. This repo is the shared workspace for ou
 | Name | GitHub handle |
 |---|---|
 | _Member 1_ | @whiterose-arch |
-| _Member 2_ | @ |
+| _Member 2_ | @mugisha-eric |
 | _Member 3_ | @ |
 
 ## 📁 Structure
