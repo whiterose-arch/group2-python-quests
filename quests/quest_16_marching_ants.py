@@ -30,4 +30,6 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+print("Numbers from 1 to 10:")  # Print a message indicating what will be printed next
+for i in range(1, 11):  # Use a for loop to iterate over numbers from 1 to 10
+    print(i)  # Print the current number in the loop
