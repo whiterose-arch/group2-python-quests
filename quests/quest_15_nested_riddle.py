@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 15: The Nested Riddle
 ===========================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Mini-adventure. Ask if they go 'left' or 'right'. If 'left', ask if they 'swim' or 'wait'. If they swim, they find a treasure. All other choices lead to a different outcome.
 
-Assigned to : <fill in your name>
+Assigned to : Emmanuel Adekojo
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,12 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+direction = input("Enter 'left' or 'right': ").lower().strip()
+if direction == "left":
+    action = input("Enter 'swim' or 'wait': ").lower().strip()
+    if action == "swim":
+        print("You found a treasure!")
+    else:
+        print("You found a monster!")
+else:
+    print("You found a monster!")
