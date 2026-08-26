@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 12: The Two-Path Cave
 ===========================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Create a password checker. If the user enters the correct password, print 'Access Granted,' otherwise print 'Access Denied.'
 
-Assigned to : <fill in your name>
+Assigned to : Emmanuel Adekojo
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,9 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+password = "3107"
+user_password = input("Enter your password: ")
+if user_password == password:
+    print("Access Granted")
+else:
+    print("Access Denied")
