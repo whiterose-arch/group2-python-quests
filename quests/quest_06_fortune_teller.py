@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Ask the user for their name and quest, then print a confirmation message.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
