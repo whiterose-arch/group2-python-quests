@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 04: The Town Crier
 ========================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Create variables for a city name, the current year, and your name. Print: 'Welcome to [City]! The year is [Year], and our newest resident is [Name].'
 
-Assigned to : <fill in your name>
+Assigned to : Ange Emmanuelle Ntsa Bineli
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,8 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+city_name = "yaounde"
+current_year = "2026"
+name = "alicia"
+
+print(f"Welcome to {city_name}! The year is {current_year}, and our newest resident is {name}.")
