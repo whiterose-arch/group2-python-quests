@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 02: The Naming Ceremony
 =============================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Create variables for a hero's name and their superpower. Print a sentence that introduces the hero and their power.
 
-Assigned to : <fill in your name>
+Assigned to : Emmanuel Adekojo
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,6 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+name = "Emma"
+power = "elasticity"
+print(f"My name is {name} and my power is {power}")
