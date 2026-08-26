@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Ask for the user's age. If it's 18 or greater, print a message that they are old enough to vote.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
