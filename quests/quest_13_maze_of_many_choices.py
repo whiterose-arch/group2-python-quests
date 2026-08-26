@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 13: The Maze of Many Choices
 ==================================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Write a grading program. Ask for a score (0-100). Print 'A' for 90+, 'B' for 80-89, 'C' for 70-79, and 'Needs Improvement' otherwise.
 
-Assigned to : <fill in your name>
+Assigned to : Ange Emmanuelle Ntsa Bineli
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,12 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+score = int(input("enter a score:  "))
+if score >= 90:
+        print("A")
+elif score >= 80:
+        print("B")
+elif score  >= 70:
+        print("C")
+else:
+        print("Need Improvement")
