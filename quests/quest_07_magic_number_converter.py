@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 07: The Magic Number Converter
 ====================================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Ask the user for their birth year, convert it to an integer, and calculate their approximate age.
 
-Assigned to : <fill in your name>
+Assigned to : Emmanuel Adekojo
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,6 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+birth_year = input("Enter your birth year: ")
+age = 2026 - int(birth_year)
+print(f"Your age is {age}")
