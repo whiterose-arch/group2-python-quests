@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Create a function greet_adventurer() that prints a welcome message. Call it three times.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
