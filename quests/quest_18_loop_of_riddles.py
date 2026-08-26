@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Write a guessing game. Think of a secret number. Use a while loop to keep asking the user to guess until they get it right.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
