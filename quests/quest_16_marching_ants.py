@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Use a for loop to print the numbers from 1 to 10.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
