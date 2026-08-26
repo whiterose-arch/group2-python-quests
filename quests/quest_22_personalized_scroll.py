@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 22: The Personalized Scroll
 =================================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Create a function personalized_greeting(name, quest). Ask the user for their name and quest, then call your function with their answers.
 
-Assigned to : <fill in your name>
+Assigned to : Emmanuel Adekojo
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,9 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+def personalized_greeting(name, quest):
+    print(f"Hello {name}, you are on quest {quest}")
+
+name = input("Enter your name: ")
+quest = input("Enter your quest: ")
+personalized_greeting(name, quest)
