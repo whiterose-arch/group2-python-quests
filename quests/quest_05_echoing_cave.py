@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 05: The Echoing Cave
 ==========================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Create player_health = 100. A monster attacks! Subtract 25. The player finds a potion! Add 10. Print the final health.
 
-Assigned to : <fill in your name>
+Assigned to : Emmanuel Adekojo
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,7 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+player_health = 100
+player_health -= 25
+player_health += 10
+print(f"The player's health is {player_health}")
