@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 17: The Endless Staircase
 ===============================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 Start a counter at 0. Use a while loop that stops when the count reaches 5.
 
-Assigned to : <fill in your name>
+Assigned to : Emmanuel Adekojo
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,7 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+count = 0
+while count < 5:
+    print(f"I am on step {count}")
+    count += 1
