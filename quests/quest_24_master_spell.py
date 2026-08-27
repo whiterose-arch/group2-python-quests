@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 24: The Master Spell
 ==========================
@@ -30,4 +31,12 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+def ask_for_age():
+        age = int(input("what is your age: "))
+        return(age)
+        print(f"your age is {age}")
+def can_they_vote(age):
+        if age > 10:
+                return f"yes, {age} can vote"
+        else:
+                return f"no, {age} can't vote"
