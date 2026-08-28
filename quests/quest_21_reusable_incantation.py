@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Create a function greet_adventurer() that prints a welcome message. Call it three times.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +30,10 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+def greet_adventurer():
+    print("Welcome, brave adventurer!")  # Print a welcome message
+
+# Call the function three times
+greet_adventurer()  # First call
+greet_adventurer()  # Second call
+greet_adventurer()  # Third call
