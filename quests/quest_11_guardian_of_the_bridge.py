@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Ask for the user's age. If it's 18 or greater, print a message that they are old enough to vote.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +30,7 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+age = int(input("What is your age? : "))  # Ask the user for their age and convert it to an integer
+
+if age >= 18:
+    print("You are old enough to vote!")
