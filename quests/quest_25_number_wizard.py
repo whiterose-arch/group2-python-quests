@@ -5,7 +5,7 @@ Level: Level 6: The Grand Challenge
 
 The Quest: Upgrade your number guessing game. After each wrong guess, tell the user if their guess was "too high" or "too low".
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
