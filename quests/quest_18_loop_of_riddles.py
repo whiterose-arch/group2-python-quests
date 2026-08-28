@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Write a guessing game. Think of a secret number. Use a while loop to keep asking the user to guess until they get it right.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +30,10 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+guessed_number = int(input("Guess a number between 1 and 10: "))  # Prompt the user to guess a number and convert it to an integer
+
+while guessed_number != 4:  # Continue looping until the user guesses the correct number (4)
+
+    print("Wrong! Try again.")  # Inform the user that their guess is too high
+    guessed_number = int(input("Guess a number between 1 and 10: "))  # Prompt the user to guess again and convert it to an integer
+print("Congratulations! You've guessed the correct number!")  # Inform the user that they have guessed
