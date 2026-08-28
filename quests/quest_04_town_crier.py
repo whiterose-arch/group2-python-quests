@@ -30,9 +30,12 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # Remember: keep it simple, test it by running `python quest_04_town_crier.py`,
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
-
+#city name store the information yaounde
 city_name = "yaounde"
+#current year stores the 2026 as a string
 current_year = "2026"
+#name store the information alicia as a string
 name = "alicia"
 
+#this will write the information in double quote and append the different variables respectively
 print(f"Welcome to {city_name}! The year is {current_year}, and our newest resident is {name}.")
