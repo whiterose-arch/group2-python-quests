@@ -1,3 +1,4 @@
+#!/urs/bin/python3
 """
 Quest 08: The Potion Brewer
 ===========================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 You need 3 dragon scales (10 gold each) and 5 elf tears (3 gold each). Calculate the total cost.
 
-Assigned to : <fill in your name>
+Assigned to : Ange Emmanuelle Ntsa Bineli
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,8 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+dragons = 3 * 10
+elf = 5 * 3
+print("cost of 3 dragons is:", dragons)
+print("cost of 5 elf tears is:", elf)
+print("total cost is:", dragons + elf)
