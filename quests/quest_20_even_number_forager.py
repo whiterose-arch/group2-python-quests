@@ -31,8 +31,10 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-for i in range(1, 20):
+#In the range below , the computer will only print every number which when divided by 2 gives 0. 
+for i in range(1, 21):
         if i % 2 == 0:
                 print(i)
+#if any remainder, the computer will skip till the limit of the range
         else:
                  continue
