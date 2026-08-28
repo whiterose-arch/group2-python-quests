@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 09: The Greedy Goblin
 ===========================
@@ -19,7 +20,7 @@ The Quest (task)
 -----------------
 A goblin has 27 gold pieces to share among 4 friends. Calculate how many pieces each friend gets and how many the goblin keeps (the remainder).
 
-Assigned to : <fill in your name>
+Assigned to : Ange Emmanuelle Ntsa Bineli
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +31,5 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+Remainder = 27 % 4
+print(Remainder)
