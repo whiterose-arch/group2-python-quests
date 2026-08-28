@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Quest 19: The Countdown
 =======================
@@ -30,4 +31,6 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+for i in range(11, 1, -1):
+        print(i - 1)
+print("Blastoff")
