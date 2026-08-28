@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Write a Python script that prints out a cool welcome message for a fellow adventurer.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -30,4 +30,4 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # and add short inline comments (#) explaining tricky lines before you push.
 # ---------------------------------------------------------------------------
 
-# TODO: implement the quest here
+print("Welcome, brave adventurer! Your journey begins now.")
