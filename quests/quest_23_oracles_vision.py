@@ -19,7 +19,7 @@ The Quest (task)
 -----------------
 Write a function calculate_area(length, width) that returns the area. Call it for two different rectangles and print the results.
 
-Assigned to : <fill in your name>
+Assigned to : Eric Mugisha
 Group       : group2-python-quests
 Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 """
@@ -31,3 +31,12 @@ Status      : [ ] not started  [ ] in progress  [ ] done  [ ] reviewed by peers
 # ---------------------------------------------------------------------------
 
 # TODO: implement the quest here
+def calculate_area(length, width):
+    return length * width  # Return the product of length and width as the area
+
+# Call the function for two different rectangles and print the results
+area1 = calculate_area(5, 10) 
+print(f"The area of the first rectangle is: {area1}")  # Print the area of the first rectangle
+
+area2 = calculate_area(7, 3) 
+print(f"The area of the second rectangle is: {area2}")  # Print the area
